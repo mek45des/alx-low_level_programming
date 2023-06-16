@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Prints reversed alphabet.
+ * main - Empty point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	int num;
 
-	for (i = 0; i < 10; i++)
+	for (num = 0; num < 10; num++)
 	{
-		putchar(i)
+		putchar(num);
 	}
 	putchar('\n');
 	return (0);
