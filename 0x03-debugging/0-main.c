@@ -4,8 +4,8 @@
  * main - test function if it's negative or positive
  * Return: 0
  */
-
 int main(void)
+
 {
 	int i;
 
