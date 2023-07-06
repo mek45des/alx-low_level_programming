@@ -20,7 +20,7 @@ int _strlen_recursion(char *s)
  */
 int comparing(char *s, int i1, int i2)
 {
-	if ((*s + i1) == *(s + i2))
+	if (*(s + i1) == *(s + i2))
 	{
 		if (i1 == i2 || i1 == i2 + 1)
 			return (1);
