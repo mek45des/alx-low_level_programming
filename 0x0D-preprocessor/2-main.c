@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define TXT "i love alx"
+#define TXT "2-main.c"
 
 /**
  * main - prints message
