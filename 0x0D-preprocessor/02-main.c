@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define MSG "2-main.c"
 
 /**
  * main - prints message
@@ -8,6 +7,6 @@
  */
 int main(void)
 {
-	printf("%s\n", MSG);
+	printf("%s\n", __FILE__);
 	return (0);
 }
