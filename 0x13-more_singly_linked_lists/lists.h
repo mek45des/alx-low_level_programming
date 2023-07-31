@@ -14,15 +14,14 @@
  */
 typedef struct listint_s
 {
-    int n;
-    struct listint_s *next;
+	int n;
+	struct listint_s *next;
 } listint_t;
 
 /**
  * struct listp_s - singly linked list
  * @n: pointer of node
  * @next: points to the next node
- * 
  * Description: singly linked list of pointers
  */
 typedef struct listp_s
